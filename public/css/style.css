@@ -47,6 +47,7 @@ table {
 Commons
 --------------------------------------------------------*/
 
+
 @font-face {
     font-family: 'BebasNeueRegular';
     src: url('../fonts/BebasNeue-webfont.eot');
@@ -64,7 +65,8 @@ Commons
 
 body {
 	background: white;
-	font: 13px 'Open Sans', sans-serif;
+  font-size : 13px;
+	font-family: 'Open Sans', 'Nanum Gothic', sans-serif;
 	color: #1c1f26;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
@@ -213,8 +215,8 @@ nav {
 }
 
 .links a {
-	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
+	font-family: 'BebasNeueRegular', sans-serif;
+	font-size: 26px;
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;

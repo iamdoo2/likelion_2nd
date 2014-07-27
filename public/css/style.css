@@ -414,7 +414,7 @@ Parallax
 	}
 	
 	.tweet {
-		font-family: 'Oswald', sans-serif;
+		font-family: 'BebasNeueRegular', sans-serif;
 		font-size: 24px;
 		color: white;
 		line-height: 1.4;
@@ -648,7 +648,7 @@ Content
 
 	
 	.project-title {
-		font-family: 'Oswald', sans-serif;
+		font-family: 'BebasNeueRegular', sans-serif;
 		font-size: 12px;
 		text-transform: uppercase;
 		margin-top: 7px;
@@ -833,7 +833,7 @@ Content
 		border-bottom: white 1px solid;
 		text-transform: uppercase;
 		color: white;
-		font-family: 'Oswald', sans-serif;
+		font-family: 'BebasNeueRegular', sans-serif;
 		font-size: 36px;
 		padding: 31px 0 31px 0;
 		margin: 12px auto 40px auto;
@@ -1014,7 +1014,7 @@ Blog
 	}
 	
 	.block-title {
-		font-family: 'Oswald', sans-serif;
+		font-family: 'BebasNeueRegular', sans-serif;
 		font-size: 18px;
 		text-transform: uppercase;
 		margin-bottom: 10px;
@@ -1151,7 +1151,7 @@ Blog
 	}
 	
 	.comment-author {
-		font-family: 'Oswald', sans-serif;
+		font-family: 'BebasNeueRegular', sans-serif;
 		font-size: 14px;
 		text-transform: uppercase;
 	}
@@ -1322,7 +1322,7 @@ Shortcodes
 		margin-bottom: 10px;
 		background: #f0f2f5;
 		color: #1c1f26;
-		font-family: 'Oswald', sans-serif;
+		font-family: 'BebasNeueRegular', sans-serif;
 		font-size: 16px;
 		text-transform: uppercase;
 		cursor: pointer;
@@ -1409,7 +1409,7 @@ Shortcodes
 		padding: 11px 20px;
 		margin-right: 5px;
 		background: #f0f2f5;
-		font-family: 'Oswald', sans-serif;
+		font-family: 'BebasNeueRegular', sans-serif;
 		text-transform: uppercase;
 		cursor: pointer;
 		-webkit-transition: all 0.1s linear;

@@ -1,4 +1,27 @@
 /*--------------------------------------------------------
+Fonts
+--------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  src: url(../fonts/NanumBarunGothic.eot);
+  src: url(../fonts/NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/NanumBarunGothic.woff) format('woff'),
+       url(../fonts/NanumBarunGothic.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*--------------------------------------------------------
 Resets
 --------------------------------------------------------*/
 html, body {
@@ -48,25 +71,13 @@ Commons
 --------------------------------------------------------*/
 
 
-@font-face {
-    font-family: 'BebasNeueRegular';
-    src: url('../fonts/BebasNeue-webfont.eot');
-    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/BebasNeue-webfont.woff') format('woff'),
-         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
-         url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 ::-moz-selection {background: #b0b825;color: white; }
 ::selection {background: #b0b825;color: white; }
 
 body {
 	background: white;
   font-size : 13px;
-	font-family: 'Open Sans', 'Nanum Gothic', sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	color: #1c1f26;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
@@ -159,6 +170,7 @@ h4 {
 }
 
 p {
+	font-family: 'Nanum Barun Gothic', 'BebasNeueRegular', sans-serif;
 	margin-top: 10px;
 }
 
@@ -485,7 +497,8 @@ Content
 }
 
 .description {
-	font-size: 12px;
+	font-family: 'Nanum Barun Gothic', 'BebasNeueRegular', sans-serif;
+	font-size: 13px;
 	line-height: 18px;
 }
 
@@ -558,7 +571,7 @@ Content
 	}
 	
 	.slidedescription {
-		font: 600 18px "Open Sans", Helvetica, Arial, sans-serif;
+		font: 600 18px "Nanum Barun Gothic", Helvetica, Arial, sans-serif;
 		margin: 13px 0 0 0;
 	}
 	
@@ -1176,8 +1189,8 @@ Blog
 	
 	.leave-comment-title span {
 		display: block;
-		font-family: 'Open Sans', sans-serif;
-		font-size:13px;
+		font-family: sans-serif;
+		font-size: 13px;
 		color: #868991;
 		text-transform: none;
 	}
@@ -1260,7 +1273,7 @@ Shortcodes
 		background: #fafafa;
 		font-size: 13px;
 		text-transform: none;
-		font-family: 'Open Sans', sans-serif;
+		font-family: sans-serif;
 		font-weight: 400;
 		box-sizing: border-box;
 		border-radius: 4px;
@@ -1415,7 +1428,7 @@ Shortcodes
 		-webkit-transition: all 0.1s linear;
 		   -moz-transition: all 0.1s linear;
 		     -o-transition: all 0.1s linear;
-		     	transition: all 0.1s linear;
+		     	  transition: all 0.1s linear;
 	}
 	
 	.tabs ul li:last-child {
@@ -1469,7 +1482,7 @@ Shortcodes
 	.alert {
 		padding: 10px 35px 10px 14px;
 		margin: 10px 0;
-		font: 13px 'Open Sans', sans-serif;
+		font: 13px sans-serif;
 		background-color: #faf2cb;
 		color: #c09853;
 		border-radius: 4px;

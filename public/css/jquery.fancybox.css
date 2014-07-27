@@ -198,7 +198,7 @@
 
 .fancybox-title {
 	visibility: hidden;
-	font: normal 13px/20px "Open Sans",Helvetica,Arial,sans-serif;
+	font: normal 13px/20px Helvetica, Arial, sans-serif;
 	position: relative;
 	text-shadow: none;
 	z-index: 8050;

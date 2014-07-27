@@ -233,9 +233,12 @@ nav {
 }
 
 .links a.to-top i {
+  /*
 	position: absolute;
 	top: 16px;
-	margin-left: 22px;
+  */
+  vertical-align: middle;
+	margin-left: 0px;
 	width: 18px;
 	height: 18px;
 	opacity:0.3;
@@ -350,7 +353,7 @@ Parallax
 	/*Parallax1------------------------------------------*/
 	
 	.bg1 {
-		background: url(../images/parallax/teaser1.jpg) 50% 50% fixed repeat-y;
+		background: url(../images/parallax/lion.jpg) 50% 50% fixed repeat-y;
 		width: 100%;
 		height: 100%;
 		margin: 0 auto;
@@ -518,7 +521,7 @@ Content
 	/*Homepage------------------------------------------*/
 	
 	#homepage {
-		background: url(../images/pattern.png);
+		/*background: url(../images/pattern.png);*/
 		position: relative;
 		overflow: hidden;
 		height: 100%;
@@ -540,25 +543,25 @@ Content
 	.slider-text {
 		position: absolute;
 		overflow: hidden;
-		bottom: 110px;
+		bottom: 20px;
 		min-height: 220px;
 	}
 	
 	#slidecaption { 
 		overflow: hidden;
 		float: left;
-		color: white;
+		color: black;
 		font: 92px/0.9 "BebasNeueRegular", Helvetica, Arial, sans-serif;
 		margin: 0 20px 0 0;
 	}
 	
 	.slidedescription {
-		font: 600 14px "Open Sans", Helvetica, Arial, sans-serif;
+		font: 600 18px "Open Sans", Helvetica, Arial, sans-serif;
 		margin: 13px 0 0 0;
 	}
 	
 	.line {
-		border-bottom: solid white 1px;
+		border-bottom: solid black 1px;
 		margin-bottom: 36px;
 		opacity: 0;
 		filter: alpha(opacity=0);

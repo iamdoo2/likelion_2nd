@@ -156,7 +156,7 @@ h2.white {
 
 
 h3 {
-	font-family: 'BebasNeueRegular', sans-serif;
+	font-family: 'BebasNeueRegular', 'Nanum Barun Gothic', sans-serif;
 	font-size: 34px;
 }
 
@@ -165,8 +165,8 @@ h3.white {
 }
 
 h4 {
-	font-family: 'BebasNeueRegular', sans-serif;
-	font-size: 22px;
+	font-family: 'BebasNeueRegular', 'Nanum Barun Gothic', sans-serif;
+	font-size: 24px;
 }
 
 p {
@@ -1422,7 +1422,7 @@ Shortcodes
 		padding: 11px 20px;
 		margin-right: 5px;
 		background: #f0f2f5;
-		font-family: 'BebasNeueRegular', sans-serif;
+	  font-family: 'Nanum Barun Gothic', sans-serif;
 		text-transform: uppercase;
 		cursor: pointer;
 		-webkit-transition: all 0.1s linear;

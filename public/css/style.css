@@ -111,8 +111,11 @@ img.scaleimg {
 }
 
 .vertical-text {
-	display: table-cell;
+	/*
+  display: table-cell;
 	vertical-align: middle;
+  */
+  margin-top:300px;
 }
 
 .pattern {
@@ -410,7 +413,7 @@ Parallax
 	/*Parallax2------------------------------------------*/
 	
 	.bg2 {
-		background: url(../images/parallax/teaser2.jpg) top center fixed repeat-y;
+		background: url(../images/parallax/mt.jpg) top center fixed repeat-y;
 		width: 100%;
 		height: 100%;
 		margin: 0 auto;
@@ -791,6 +794,15 @@ Content
 	}
 
 
+  #members{
+		width: 100%;
+		height: auto;
+		min-height: 100%;
+		background-color: white;
+		position: relative;
+		background-color: #1c1f26;
+		background: url(../images/white_paper.jpg) top center fixed;
+  }
 
 	/*Contact------------------------------------------*/
 

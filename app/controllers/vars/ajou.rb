@@ -1,4 +1,4 @@
-
+#encoding:utf-8
 def ajou
   teachers = [
     ["김진오", "아주대 미디어학과",       "/members/ajou/t1.jpg", "게으르지만 열심히 하고 싶은 꼬마 프로그래머"],

@@ -306,14 +306,16 @@
 				</div>
 			</div>  
 			<!-- Start Project -->
-      <% 0.upto 140 do |x| %>
+      <% [@sejong, @khu, @kaist, @snu_yonsei, @ajou, @gachon, @hanyang, @korea, @mju, @ssu, @uos].shuffle.each do |x| %>
+        <% x.each do |y| %>
 			<div class="four columns">
         <div class="img-wrp">
-          <img class="scaleimg" src="images/portfolio/thumbs/image1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum." />
+          <img class="scaleimg" src="<%= y[2]%>" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum." />
         </div>
-				<p class="project-title">이상윤-선생님</p>
-				<p class="project-description">고려대학교 정보통신학과</p>
+				<p class="project-title"><%= y[0] %></p>
+				<p class="project-description"><%= y[1] %></p>
 			</div>	
+        <% end %>
       <% end %>
 			<!-- End Project -->
 			

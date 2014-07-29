@@ -1,21 +1,29 @@
+require 'vars/ajou.rb'
+require 'vars/gachon.rb'
+require 'vars/hanyang.rb'
+require 'vars/kaist.rb'
+require 'vars/khu.rb'
+require 'vars/korea.rb'
+require 'vars/mju.rb'
+require 'vars/sejong.rb'
+require 'vars/snu_yonsei.rb'
+require 'vars/ssu.rb'
+require 'vars/uos.rb'
+
 class MainController < ApplicationController
   def index
-    @members = Array.new
-    
-    ["이상윤 선생님", "고려대학교 정보통신학과"]
 
-    #숭실대
-    ["김영철," "성균관대 전자전기학과", "youngchul.jpg"]
-    ["박진수," "숭실대 언론홍보학과"]
-    ["장선옥," "중앙대 수학과"]
-    ["안성수," "숭실대 경영학과"]
-    ["이지현," "숭실대 글로벌 미디어학과"]
-    ["신윤수," "숭실대 벤처중소기업학과"]
-    ["임동균," "숭실대 벤처중소기업학과"]
-    ["최현섭," "숭실대 영어영문학과"]
-    ["김남윤," "동국대 경영정보학과"]
-    ["임태양," "중앙대 심리학과"]
-    ["박형규," "단국대 경영학과"]
+    @mju = mju
+    @sejong = sejong
+    @snu_yonsei = snu_yonsei
+    @kaist = kaist
+    @ajou = ajou
+    @gachon = gachon
+    @hanyang = hanyang
+    @khu = khu
+    @korea = korea
+    @ssu = ssu
+    @uos = uos
 
     render layout: false
   end

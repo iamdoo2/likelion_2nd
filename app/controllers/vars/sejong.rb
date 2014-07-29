@@ -1,4 +1,4 @@
-
+#encoding:utf-8
 def sejong
   teachers = [
     ["김범준", "세종대 컴퓨터공학과", "/members/sejong/t1.jpg", "나이 / 피곤 담당"],

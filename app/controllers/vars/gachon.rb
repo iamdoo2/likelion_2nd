@@ -1,4 +1,4 @@
-
+#encoding:utf-8
 def gachon
   teachers = [
   ["송제인", "가천대 소프트웨어설계경영", "/members/gachon/t1.jpg", "내안에 무한한 힘이 넘친다!"], 

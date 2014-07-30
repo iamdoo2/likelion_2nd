@@ -793,6 +793,10 @@ Content
 	          transition: none;
 	}
 
+  #members{
+		background: url(../images/white_paper.jpg) top center;
+  }
+
 	/*Contact------------------------------------------*/
 
 	#contact {

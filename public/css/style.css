@@ -795,12 +795,6 @@ Content
 
 
   #members{
-		width: 100%;
-		height: auto;
-		min-height: 100%;
-		background-color: white;
-		position: relative;
-		background-color: #1c1f26;
 		background: url(../images/white_paper.jpg) top center fixed;
   }
 

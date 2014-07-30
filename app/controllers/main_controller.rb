@@ -32,7 +32,7 @@ class MainController < ApplicationController
       ["코드라이언", "온라인 프로그래밍 교육", "codelion.net", "/images/portfolio/codelion.jpg"],
       ["날씨아나", "아나운서가 들려주는 날씨 모닝콜", "어플", "/images/portfolio/weather.jpg"],
       ["자소설닷컴", "자기소개서 토탈솔루션", "jasoseol.com", "/images/portfolio/jasoseol.jpg"],
-      ["코드스터디", "온라인 프로그래밍 교육", "codestudy.com", "/images/portfolio/codestudy.jpg"],
+      ["코드스터디", "온라인 프로그래밍 교육", "codestudy.kr", "/images/portfolio/codestudy.jpg"],
       ["스터디코치", "스마트폰을 공부의 친구로", "어플", "/images/portfolio/studycoach.jpg"],
       ["일베용어사전", "일베용어 쓰지말자", "ilbescreen.com", "/images/portfolio/ilbescreen.jpg"],
       ["nowarning", "Proxy 속도 비교", "nowarning.or.kr", "/images/portfolio/nowarning.jpg"],
